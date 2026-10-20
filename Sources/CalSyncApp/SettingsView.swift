@@ -183,10 +183,6 @@ struct SettingsView: View {
             HStack(spacing: 5) {
                 Spacer()
                 Text("Built by").foregroundStyle(.secondary)
-                if let url = URL(string: "https://github.com/EricKramp") {
-                    Link("Eric Kramp", destination: url)
-                }
-                Text("and").foregroundStyle(.secondary)
                 if let url = URL(string: "https://github.com/getinet") {
                     Link("Mekuria Getinet", destination: url)
                 }

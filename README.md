@@ -97,11 +97,6 @@ The log lives at `~/Library/Logs/CalSync/calsync.log`.
 * Rebuilding changes the app signature, so macOS may ask for calendar permission again
   after an update.
 
-## Credits
-
-Built by [Eric Kramp](https://github.com/EricKramp) and
-[Mekuria Getinet](https://github.com/getinet).
-
 ## Development
 
 ```bash
